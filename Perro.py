@@ -5,8 +5,8 @@ Autor: Jaime Rabasco Ronda.
 """
 class Perro:
 
-    def ladrar(self):
-        print('Guau');
+    def __init__(self):
+        self.ladrar = print('Guau')
 
 p = Perro();
 p.ladrar();
